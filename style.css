@@ -177,3 +177,54 @@ span {
 .skills-box h3 {
   font-size: 2rem;
 }
+
+.portfolio {
+  text-align: center; /* This centers the title text */
+  padding: 4rem 0; /* Adjust top and bottom padding as needed */
+  background: var(--second-bg-color);
+}
+
+.heading {
+  /* other styles... */
+  margin-bottom: 2rem; /* Space between title and image */
+}
+
+.portfolio-container {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-box {
+  width: 100%; /* Or set a max-width if you prefer */
+  text-align: center;
+}
+
+.portfolio-box img {
+  max-width: 100%; /* Adjust this value to scale the image as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.portfolio-layer h4 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.portfolio-layer p {
+  font-size: 1.6rem;
+  margin: 0.3rem 0 1rem;
+}
+
+.portfolio-layer a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 5rem;
+  background: var(--text-color);
+  border-radius: 50%;
+}
+
+.portfolio-layer a i {
+  font-size: 2rem;
+  color: var(--second-bg-color);
+}
