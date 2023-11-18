@@ -33,6 +33,12 @@ section {
   padding: 10rem 9% 2rem;
 }
 
+.light-theme {
+  --bg-color: #ffffff; /* Light theme background color */
+  --text-color: #000000; /* Light theme text color */
+  --second-bg-color: #f0f0f0; /* Slightly off-white for secondary areas if needed */
+}
+
 .header {
   position: fixed;
   top: 0;
