@@ -53,6 +53,19 @@ section {
   cursor: default;
 }
 
+.header-logo-image {
+  height: 4rem; /* Example height, adjust as necessary */
+  width: auto; /* To maintain the aspect ratio */
+  margin-left: 1rem; /* To add some space between the logo and the image */
+}
+
+/* Responsive adjustments if needed */
+@media (max-width: 768px) {
+  .header-logo-image {
+    height: 3rem; /* Smaller height for mobile */
+  }
+}
+
 .navbar a {
   font-size: 1.7rem;
   color: var(--text-color);
@@ -184,8 +197,8 @@ span {
   background: var(--second-bg-color);
 }
 
-.heading {
-  /* other styles... */
+
+.portfolio h2 {
   margin-bottom: 2rem; /* Space between title and image */
 }
 
@@ -225,6 +238,67 @@ span {
 }
 
 .portfolio-layer a i {
+  font-size: 2rem;
+  color: var(--second-bg-color);
+}
+
+.experience {
+  text-align: center;
+  padding: 4rem 0;
+  background: var(
+    --second-bg-color
+  ); /* Make sure this color is defined in your CSS or replace with an actual color value */
+  display: flex; /* This will allow you to use flex properties to center the content */
+  flex-direction: column; /* Stack flex items vertically */
+  justify-content: center; /* Center flex items along the vertical axis */
+  align-items: center; /* Center flex items along the horizontal axis */
+  height: 100vh; /* Fill the entire height of the viewport */
+}
+
+.heading {
+  /* other styles... */
+  margin-bottom: 2rem; /* Space between title and image */
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Spreads content to start and end */
+  align-items: flex-start; /* Aligns content to the left */
+  padding: 4rem 0;
+  background: var(--second-bg-color);
+}
+
+.experience-box {
+  width: 100%;
+  padding: 2rem;
+}
+
+.experience-layer {
+  text-align: left;
+}
+
+.experience-layer h4,
+.experience-layer p {
+  margin: 0; /* Removes default margins */
+}
+
+.experience-layer p {
+  font-size: 1.6rem;
+  margin: 0.3rem 0 1rem;
+}
+
+.experience-layer a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 5rem;
+  background: var(--text-color);
+  border-radius: 50%;
+}
+
+.experience-layer a i {
   font-size: 2rem;
   color: var(--second-bg-color);
 }
