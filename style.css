@@ -203,8 +203,8 @@ span {
   background: var(--second-bg-color);
 }
 
+
 .portfolio h2 {
-  /* other styles... */
   margin-bottom: 2rem; /* Space between title and image */
 }
 
