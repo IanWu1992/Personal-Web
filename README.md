@@ -1,6 +1,6 @@
 ## Wireframe
 
-[web wireframe](images/wireframe.PNG)
+[web wireframe](wireframe.PNG)
 
 ## MIT license explanation
 
