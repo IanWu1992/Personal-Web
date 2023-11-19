@@ -1,3 +1,7 @@
+## Wireframe
+
+[web wireframe](images/wireframe.PNG)
+
 ## MIT license explanation
 
 The MIT License was chosen for this project to promote an open and collaborative approach to software development. It allows me to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, provided they include the original copyright notice and license text. This freedom encourages wider use and sharing of the code, while still granting credit to the original author. The simplicity of the MIT License also minimizes the legal complexity for users, making it a good fit for a personal project like this website that aims to showcase work and invite collaboration.
